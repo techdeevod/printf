@@ -14,8 +14,8 @@ int printc(va_list l);
 int print_string(va_list s);
 int (*spec_func(const char a))(va_list);
 int print_n(va_list n);
-
-
+int _print_int_binary(va_list args);
+void _recursion_int_binary(int a);
 
 /**
  * struct types - specifier structure for printf

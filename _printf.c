@@ -65,6 +65,7 @@ int (*spec_func(const char a))(va_list)
 		{'s', print_string},
 		{'d', print_n},
 		{'i', print_n},
+		{'b', _print_int_binary},
 		{'\0', NULL}
 	};
 
