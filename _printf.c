@@ -63,6 +63,7 @@ int (*spec_func(const char a))(va_list)
 	print_f printf[] = {
 		{'c', printc},
 		{'s', print_string},
+		{'%', printc},
 		{'d', print_n},
 		{'i', print_n},
 		{'b', _print_int_binary},
